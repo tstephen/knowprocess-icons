@@ -15,11 +15,11 @@
  ******************************************************************************/
 @font-face {
   font-family: 'knowprocess';
-  src:  url('fonts/knowprocess.eot?i3kmcs');
-  src:  url('fonts/knowprocess.eot?i3kmcs#iefix') format('embedded-opentype'),
-    url('fonts/knowprocess.ttf?i3kmcs') format('truetype'),
-    url('fonts/knowprocess.woff?i3kmcs') format('woff'),
-    url('fonts/knowprocess.svg?i3kmcs#knowprocess') format('svg');
+  src:  url('fonts/knowprocess.eot?f53ad2');
+  src:  url('fonts/knowprocess.eot?f53ad2#iefix') format('embedded-opentype'),
+    url('fonts/knowprocess.ttf?f53ad2') format('truetype'),
+    url('fonts/knowprocess.woff?f53ad2') format('woff'),
+    url('fonts/knowprocess.svg?f53ad2#knowprocess') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,6 +39,61 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kp-icon-england:before {
+  content: "\e911";
+}
+.kp-icon-uk:before {
+  content: "\e90f";
+}
+.kp-icon-organization:before {
+  content: "\e910";
+}
+.kp-icon-ccg:before {
+  content: "\e90e";
+}
+.kp-icon-department:before {
+  content: "\e90d";
+}
+.kp-icon-public-health:before {
+  content: "\e903";
+}
+.kp-icon-care:before {
+  content: "\e90b";
+}
+.kp-icon-community:before {
+  content: "\e90c";
+}
+.kp-icon-mental-health:before {
+  content: "\e904";
+  color: #99c344;
+}
+.kp-icon-ambulance:before {
+  content: "\e905";
+}
+.kp-icon-dentist:before {
+  content: "\e906";
+}
+.kp-icon-doctor:before {
+  content: "\e907";
+}
+.kp-icon-acute-trust:before {
+  content: "\e908";
+}
+.kp-icon-nurse:before {
+  content: "\e909";
+}
+.kp-icon-specialist:before {
+  content: "\e90a";
+}
+.kp-icon-stationary:before {
+  content: "\e900";
+}
+.kp-icon-walking:before {
+  content: "\e901";
+}
+.kp-icon-running:before {
+  content: "\e902";
+}
 .kp-icon-new-tab:before {
   content: "\ea7e";
 }
@@ -55,10 +110,10 @@
   content: "\e94e";
 }
 .kp-icon-envelope-open:before {
-  content: "\e90d";
+  content: "\e912";
 }
 .kp-icon-envelope:before {
-  content: "\e90e";
+  content: "\e913";
 }
 .kp-icon-share2:before {
   content: "\ea7d";
@@ -151,7 +206,7 @@
   content: "\e96f";
 }
 .kp-icon-pencil:before {
-  content: "\e905";
+  content: "\e914";
 }
 .kp-icon-credit-card:before {
   content: "\e93f";
@@ -223,37 +278,37 @@
   content: "\f0e1";
 }
 .kp-icon-macc:before {
-  content: "\e913";
+  content: "\e915";
 }
 .kp-icon-merge:before {
-  content: "\e912";
+  content: "\e916";
 }
 .kp-icon-image:before {
-  content: "\e911";
+  content: "\e917";
 }
 .kp-icon-route:before {
-  content: "\e910";
+  content: "\e918";
 }
 .kp-icon-bullhorn2:before {
-  content: "\e90f";
+  content: "\e919";
 }
 .kp-icon-paper-plane:before {
-  content: "\e900";
+  content: "\e91b";
 }
 .kp-icon-send:before {
-  content: "\e900";
+  content: "\e91b";
 }
 .kp-icon-caret-down:before {
-  content: "\e901";
+  content: "\e91c";
 }
 .kp-icon-caret-right:before {
-  content: "\e902";
+  content: "\e91d";
 }
 .kp-icon-caret-left:before {
-  content: "\e903";
+  content: "\e91e";
 }
 .kp-icon-caret-up:before {
-  content: "\e904";
+  content: "\e91f";
 }
 .kp-icon-process-model2:before {
   content: "\e600";
@@ -262,22 +317,22 @@
   content: "\e601";
 }
 .kp-icon-office-alt:before {
-  content: "\e906";
+  content: "\e920";
 }
 .kp-icon-stock:before {
-  content: "\e907";
+  content: "\e921";
 }
 .kp-icon-healthy:before {
-  content: "\e908";
+  content: "\e923";
 }
 .kp-icon-process-model:before {
-  content: "\e909";
+  content: "\e92d";
 }
 .kp-icon-newspaper:before {
-  content: "\e90a";
+  content: "\e92e";
 }
 .kp-icon-profile:before {
-  content: "\e923";
+  content: "\e92f";
 }
 .kp-icon-phone:before {
   content: "\e942";
@@ -520,13 +575,13 @@
   content: "\e04a";
 }
 .kp-icon-unlock:before {
-  content: "\e90b";
+  content: "\e930";
 }
 .kp-icon-lock:before {
-  content: "\e90c";
+  content: "\e932";
 }
 .kp-icon-books:before {
-  content: "\e920";
+  content: "\e933";
 }
 .kp-icon-drawer:before {
   content: "\e95c";
