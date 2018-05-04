@@ -298,6 +298,11 @@
 .kp-icon-send:before {
   content: "\e91b";
 }
+.sort-asc:before
+.sort-desc:before {
+  font-family: 'knowprocess';
+}
+.sort-desc:before,
 .kp-icon-caret-down:before {
   content: "\e91c";
 }
@@ -307,6 +312,7 @@
 .kp-icon-caret-left:before {
   content: "\e91e";
 }
+.sort-asc:before,
 .kp-icon-caret-up:before {
   content: "\e91f";
 }
