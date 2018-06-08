@@ -18,19 +18,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.knowprocess</groupId>
-  <name>Fonts</name>
+  <groupId>com.knowprocess.icons</groupId>
+  <name>KnowProcess Icons</name>
   <inceptionYear>2011</inceptionYear>
 
   <artifactId>icons</artifactId>
   <packaging>jar</packaging>
-
-  <parent>
-    <groupId>link.omny</groupId>
-    <artifactId>omny-link-root</artifactId>
-    <relativePath>..</relativePath>
-    <version>3.0.0-SNAPSHOT</version>
-  </parent>
+  <version>3.0.0-SNAPSHOT</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
