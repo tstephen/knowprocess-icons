@@ -298,10 +298,12 @@
 .kp-icon-send:before {
   content: "\e91b";
 }
-.sort-asc:before
+.dropdown.dropdown-menu li.selected::after,
+.sort-asc:before,
 .sort-desc:before {
   font-family: 'knowprocess';
 }
+.dropdown.dropdown-menu li.selected::after,
 .sort-desc:before,
 .kp-icon-caret-down:before {
   content: "\e91c";
