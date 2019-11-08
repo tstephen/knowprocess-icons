@@ -31,4 +31,22 @@
     <java.version>1.8</java.version>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>kp-repo</id>
+      <name>KnowProcess public repository</name>
+      <url>scpexe://knowprocess.com/var/www-knowprocess/maven</url>
+    </repository>
+  </distributionManagement>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+         <artifactId>wagon-ssh-external</artifactId>
+         <version>1.0-beta-6</version>
+      </extension>
+    </extensions>
+  </build>
+
 </project>
