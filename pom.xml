@@ -24,11 +24,13 @@
 
   <artifactId>icons</artifactId>
   <packaging>jar</packaging>
-  <version>3.1.0</version>
+  <version>${revision}</version>
 
   <properties>
+    <revision>3.1.0</revision>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
+    <junit.jupiter.version>5.10.3</junit.jupiter.version>
   </properties>
 
   <distributionManagement>
@@ -38,6 +40,15 @@
       <url>scpexe://knowprocess.com/var/www-knowprocess/maven</url>
     </repository>
   </distributionManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>${junit.jupiter.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>
@@ -50,6 +61,11 @@
           <target>${java.version}</target>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.5</version>
+      </plugin>
     </plugins>
     <extensions>
       <extension>
@@ -59,5 +75,18 @@
       </extension>
     </extensions>
   </build>
+
+  <profiles>
+    <profile>
+      <id>github</id>
+      <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>GitHub Packages</name>
+          <url>https://maven.pkg.github.com/${env.GITHUB_REPOSITORY_OWNER}</url>
+        </repository>
+      </distributionManagement>
+    </profile>
+  </profiles>
 
 </project>
